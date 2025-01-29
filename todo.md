@@ -6,6 +6,12 @@ configurable).
 
 Refer to [this paper](https://pdos.csail.mit.edu/6.824/papers/gfs.pdf)
 
+## Configuration
+- [ ] version
+- [ ] cleaning policy
+- [ ] chunk size
+- [ ] caching policy 
+
 ## File System Operations/Interface
 - [ ] create
 - [ ] delete
@@ -17,7 +23,6 @@ Refer to [this paper](https://pdos.csail.mit.edu/6.824/papers/gfs.pdf)
 - [ ] snapshot
 
 ## Client
-- [ ] tbd
 
 ### File System Operations/Interface
 - [ ] create
@@ -60,4 +65,4 @@ Refer to [this paper](https://pdos.csail.mit.edu/6.824/papers/gfs.pdf)
 - [ ] snapshot
 
 ### Additional Features 
-- [ ] tbd
+- [ ] caching 
