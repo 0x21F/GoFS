@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "github.com/0x21F/GoFS/chunk";
+
+package chunk;
+
+message Chunk {
+	bytes chunk; 
+	uint32 version;
+	uint32 index;
+	string path_name;
+}
+
+message DeleteFile {
+	optional uint32 version = 0; 
+	string path_name;
+}
